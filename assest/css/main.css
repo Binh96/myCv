@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #000;
+    --secondary-color: #666;
+    --green-color: #009688;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mg-t-0{
+    margin-top: 0 !important;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #eee;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+.profile{
+    width: 33.33333%;
+    margin-right: 9px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.profile-picture{
+    position: relative;
+}
+
+.profile-picture img{
+    width: 100%;
+    display: block;
+}
+
+.profile-name{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.profile-content{
+    background-color: #fff;
+    padding: 15px;
+}
+
+.profile-contact-content{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.profile-content i{
+    position: relative;
+    top: -4px;
+    color: var(--green-color);
+    font-size: 18px;
+    margin-right: 16px;
+}
+
+.profile-content p{
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+
+.profile-header{
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.profile-header i{
+    position: relative;
+    top: -1px;
+    font-size: 18px;
+}
+
+.profile-header h1{
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.profile-skills{
+    margin-bottom: 40px;
+}
+
+.profile-skill-container p{
+    font-size: 15px;
+    color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.progess-bar{
+    margin: 18px 0;
+    display: block;
+    width: 100%;
+    background-color: #f1f1f1;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.progess-bar > span{
+    font-size: 12px;
+    padding: 2px 0;
+    color: #fff;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    background-color: var(--green-color);
+}
+
+.progess-bar > span.w-90{
+    width: 90%;
+}
+
+.progess-bar > span.w-80{
+    width: 80%;
+}
+
+.progess-bar > span.w-75{
+    width: 75%;
+}
+
+.progess-bar > span.w-50{
+    width: 50%;
+}
+
+.progess-bar > span.w-100{
+    width: 100%;
+}
+
+.progess-bar > span.w-30{
+    width: 30%;
+}
+
+.process{
+    /* width: 66.66667%; */
+    flex: 1;
+    margin-left: 9px;
+}
+
+.process-header{
+    display: flex;
+    align-items: center;
+}
+
+.process-header h1{
+    font-size: 30px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.process-header i{
+    position: relative;
+    top: -1px;
+    margin-right: 16px;
+    font-size: 36px;
+    color: var(--green-color);
+}
+
+.experience{
+    padding: 30px 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
